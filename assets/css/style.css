@@ -1,0 +1,26 @@
+:root{
+    --Color-principal:black;
+    --tamaño-fuente:14px
+}
+
+
+.navbarWeb{
+    width: 100%;
+    height: auto;
+    background-color: var(--Color-principal);
+    position: absolute;
+    top: 0;
+}
+
+.navbarWeb__lista{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;  
+}
+
+.navbarWeb__link{
+    color: white;
+    text-decoration: none;
+    font-size: var(--tamaño-fuente);
+}
